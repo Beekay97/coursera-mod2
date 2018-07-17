@@ -26,11 +26,24 @@ body{
 	}
 .right h3{
 	float:right;
-	background:#e19395;
+	
     border:solid black 1px;
     min-width:auto;
     width:40%;
+	font-size:1em;
     padding:10px;
+}
+
+.head1 h3{
+    background:#e19395;
+}
+
+.head2 h3{
+    background:#d22f35;
+}
+
+.head3 h3{
+    background:#e7d394;
 }
 
 p{
@@ -53,6 +66,7 @@ p{
 		margin-right:1%;
 		border: solid black 1px;
         background:grey;
+        min-height:350px
 	}
 }
 
@@ -72,7 +86,12 @@ p{
 		margin-right:1%;
 		border: solid black 1px;
 		background:grey;
-	}
+    }
+    .tab-two p{
+        height:auto;
+        min-height:10px;
+    }
+	
 }
 
 @media (max-width:767px){
@@ -82,5 +101,8 @@ p{
 		margin:2% 8% 0 8% ;
 		border: solid black 1px;
 		background:grey;
+    }
+    .col p{
+        min-height:10px;
     }
 }
